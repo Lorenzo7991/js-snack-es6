@@ -6,7 +6,7 @@ console.log('S4-JS-OK');
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 //?Checking random number function
 const randomNumber = getRandomNumber(1, 100);
-console.log(randomNumber);
+console.log('Random number from getRandomNumber fuction:', randomNumber);
 
 //*Looping on football team array
 footballTeams.forEach(team => {
