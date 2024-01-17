@@ -95,4 +95,38 @@ const bicycleArray = [
     }
 ];
 
-console.log('Contenuto di partenza dell\' array delle BICICLETTE: ', bicycleArray);
+/* console.log('Contenuto di partenza dell\' array delle BICICLETTE: ', bicycleArray); */
+
+//^-----------------------------------------------------------------------------------------------------
+//^---------------------------------------------- SNACK 4 ----------------------------------------------
+//^-----------------------------------------------------------------------------------------------------
+
+const footballTeams = [
+    {
+        name: "Juventus",
+        score: 0,
+        fouls: 0
+    },
+    {
+        name: "Barcelona",
+        score: 0,
+        fouls: 0
+    },
+    {
+        name: "Liverpool",
+        score: 0,
+        fouls: 0
+    },
+    {
+        name: "Bayern Munich",
+        score: 0,
+        fouls: 0
+    },
+    {
+        name: "Paris Saint-Germain",
+        score: 0,
+        fouls: 0
+    }
+];
+
+console.log('Contenuto di partenza dell\' array delle SQUADRE: ', footballTeams);
