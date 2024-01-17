@@ -19,7 +19,7 @@ const guests = [
     'Maneskin'
 ];
 
-console.log('Contenuto di partenza dell\' array dei VIP: ', guests);
+/* console.log('Contenuto di partenza dell\' array dei VIP: ', guests); */
 
 //^-----------------------------------------------------------------------------------------------------
 //^---------------------------------------------- SNACK 2 ----------------------------------------------
@@ -65,4 +65,34 @@ const studentsData = [
     }
 ];
 
-console.log('Contenuto di partenza dell\' array degli STUDENTI: ', studentsData);
+/* console.log('Contenuto di partenza dell\' array degli STUDENTI: ', studentsData); */
+
+//^-----------------------------------------------------------------------------------------------------
+//^---------------------------------------------- SNACK 3 ----------------------------------------------
+//^-----------------------------------------------------------------------------------------------------
+
+
+const bicycleArray = [
+    {
+        brand: 'Trek',
+        weight: 10,
+    },
+    {
+        brand: 'Specialized',
+        weight: 11,
+    },
+    {
+        brand: 'Giant',
+        weight: 13,
+    },
+    {
+        brand: 'Cannondale',
+        weight: 9,
+    },
+    {
+        brand: 'Scott',
+        weight: 12,
+    }
+];
+
+console.log('Contenuto di partenza dell\' array delle BICICLETTE: ', bicycleArray);
