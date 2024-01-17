@@ -17,3 +17,8 @@ footballTeams.forEach(team => {
 });
 //? Checking footballTeams array content
 console.log(footballTeams);
+
+//*Map method for format output
+footballTeams.map(({ name, fouls }) => {
+    console.log(`Nome squadra: ${name}, Falli subiti: ${fouls}`);
+});
