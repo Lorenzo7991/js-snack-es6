@@ -13,4 +13,5 @@ console.log('Studenti con voto superiore a 70 e id superiore a 120: ', selectedC
 
 //*Mapping list for names student with uppercase only
 const uppercaseNames = studentsData.map(student => ({ name: student.name.toUpperCase() }));
+
 console.log('Nomi degli studenti scritti in maiuscolo:', uppercaseNames);

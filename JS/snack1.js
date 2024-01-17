@@ -1,7 +1,7 @@
 console.log('S1-JS-OK');
 
-//* Creazione di un array di oggetti per gli ospiti
+//* Creating array mapped for guests
 const guestsList = guests.map((guest, i) => ({ tableName: tableName, guestName: guest, seatOccupied: i + 1 }));
 
-//* Output sulla console
+//* Console output
 console.log('Lista degli invitati VIP con segnaposto: ', guestsList);
