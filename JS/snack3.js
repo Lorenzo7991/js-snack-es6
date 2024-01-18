@@ -8,4 +8,4 @@ const minWeight = bicycleArray.reduce((minBike, currentBike) => {
 //* Destructuring
 const { brand, weight } = minWeight;
 //* Console output
-console.log(`Marca: ${brand} Peso: ${weight}`);
+console.log(minWeight);
